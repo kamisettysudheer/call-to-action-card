@@ -7,45 +7,54 @@
     .chatBot {
       border: 1px solid rgba(0, 0, 0, 0.5);
       width: 600px;
-      height: 400px;
+      height: auto;
       margin: auto;
+      padding: 20px;
     }
 
     .heading {
-      padding: auto;
+      padding: 20px;
       font-family: sans-serif;
       color: rgba(0, 0, 0, 0.6);
       font-weight: 100;
       font-size: 45px;
-      margin: 50px;
+      margin: 0px 50px;
       word-spacing: 1px;
     }
 
     .content {
-      padding: auto;
+      padding: 0px 20px;
       font-family: sans-serif;
       color: rgba(0, 0, 0, 0.5);
       font-weight: 100;
       font-size: 20px;
-      margin: 50px;
+      margin: 20px 50px;
       word-spacing: 1px;
+      letter-spacing: 1px;
     }
 
     .button {
       width: 90%;
       height: 40px;
-      background-color: rgba(0, 0, 100, 0.6);
+      background-color: #4184e1;
       border-radius: 20px;
     }
 
     #note {
       font-size: 14px;
+      word-spacing: 1px;
     }
 
     #buttonContent {
       color: white;
       text-align: center;
       padding: 10px;
+    }
+
+    #line {
+      width: 50px;
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      margin: 0px 70px;
     }
   </style>
 </head>
@@ -55,6 +64,7 @@
     <header>
       <h1 class="heading">Build your first chatbot in 10 minutes!</h1>
     </header>
+    <div id="line"></div>
     <section class="content">
       <p>Have a bot answering question from customers on your website within 10 minutes of signing up for chatBot.</p>
       <div class="button">
